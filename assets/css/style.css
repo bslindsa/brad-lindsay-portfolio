@@ -151,7 +151,7 @@ aside h1 {
 
 .mywork img {
     width: 100%;
-    object-fit: fill;
+    object-fit: contain;
 }
 
 .mywork header {
@@ -195,7 +195,7 @@ aside h1 {
 
 .projectOther div {
     display: inline;
-    width: 40%;
+    max-width: 40%;
     margin: 5% 0%;
     float: right;
     /* Complex method of getting notched corners on projects*/
