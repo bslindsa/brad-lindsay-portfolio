@@ -159,7 +159,9 @@ aside h1 {
 .mywork header {
     font-size: 2vw;
     text-align: center;
+    background-color: var(--acc-color);
     padding: 2% 0%;
+    
 }
 
 /* First project will be set above the others and take up a wider space. */
@@ -211,6 +213,10 @@ aside h1 {
     0% 90%,
     0% 10%
     )
+}
+
+.card-1 a {
+    text-decoration: none;
 }
 
 .card a {
