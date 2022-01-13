@@ -103,7 +103,7 @@ section p {
 
 /* This sets the accent colored sidebar to the left of the screen */
 aside {
-    display: inline-block;
+    /* display: inline-block; */
     width: 20%;
     height: 100%;
     position: absolute;
