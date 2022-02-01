@@ -118,11 +118,12 @@
     );
 }
 
-.proj-image {
-    max-height: 80%;
+.proj-head {
+    height: 30%;
 }
 
 .card {
+
     /* Complex method of getting notched corners on projects*/
     overflow: hidden;
     clip-path: polygon(
