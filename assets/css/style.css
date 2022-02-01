@@ -42,10 +42,13 @@
     color: var(--hf-text);
 }
 
+.av-square {
+    margin: 0 auto;
+}
 
 .custom-navbar ul li {
     display: inline-block;
-    /* font-size: 3vw; */
+    font-size: 1.8rem;
     
 }
 
