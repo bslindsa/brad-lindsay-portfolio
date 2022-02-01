@@ -8,7 +8,7 @@ This application runs the Brad Lindsay, A.K.A. Don't_Judge, portfolio page. The 
 
 Below is a screenshot of the full portfolio page.
 
-![Full Portfolio Page](./assets/full-page-application.png)
+![Full Portfolio Page](./assets/images/full-page-application.png)
 
 © 2021 Don't_Judge Content
 
