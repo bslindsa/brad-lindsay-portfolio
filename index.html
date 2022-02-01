@@ -1,110 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Don't Judge</title>
     <link rel="icon" href="./assets/images/knight.jpg" type="image/x-icon">
 </head>
+
 <body>
     <header id="header">
-        <img class="avatar" src="./assets/images/knight.jpg" alt="Dont Judge the knight helmet icon. This is a placeholder for a unique avatar.">
-        <h1 id="title">DON'T_JUDGE</h1>
-        <nav class="custom-navbar navbar navbar-expand-lg">
-            <ul>
-                <li>
-                    <a class="nav-link" href="#toabout">About</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#towork">Work</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#tocontact">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="header row">
+            <!-- <div class="row col-lg-6"> -->
+            <div class="av-square d-inline col-lg-6">
+                <img class="avatar" src="./assets/images/knight.jpg"
+                    alt="Dont Judge the knight helmet icon. This is a placeholder for a unique avatar.">
+            <!-- </div>
+            <div class="title col-lg-8"> -->
+                <h1 id="title">DON'T_JUDGE</h1>
+            </div>
+            <!-- </div> -->
+            <div class="custom-navbar col-lg-6">
+                <nav class="custom-navbar navbar">
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="#toabout">About</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#towork">Work</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#tocontact">Contact</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="/assets/images/blindsay-resume.pdf" download>Resume</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <main>
-        <div class="content"> 
-            <section class="aboutme">
-                <aside class="a-about">
+        <div class="content">
+            <section class="aboutme row">
+                <div class="a-about col-md-3">
                     <h1 id="toabout">ABOUT ME</h1>
-                </aside>     
-                <p id="about-text">Aspiring software developer from Mesa, Arizona with a B.S.E. in 
-                    Chemical Engineering. I have a knack for process design, troubleshooting, and creative design.
-                    My goal here is to create 
-                    your best applications to make your processes more 
-                    efficient and free up your time.
-                    <br>
-                    Check out my <a href="./assets/images/blindsay-resume.pdf">Resume</download> here!
-                    <br><br><br>
-                </p>
-            </section>
-
-            <section class="mywork">
-                <aside class="a-work">
-                    <h1 id="towork" >MY WORK</h1>
-                </aside>
-                <div class="projectOne">
-                    <div class="card-1">
-                        <a href="https://wissamk08.github.io/BootCampProject-01">
-                            <img src="./assets/images/stox-ster.png" alt="Screenshot of code from refactoring project." />
-                            <header>Stock Tracker</header>
-                        </a>
-                    </div>
                 </div>
-                <div class="projectOther d-flex flex-wrap">
-                    <div class="card">
-                        <a href="https://bslindsa.github.io/weather-dashboard/">
-                            <img src="./assets/images/weather-dashboard.JPG" alt="Weather Dashboard." />
-                            <header>Weather Dashboard</header>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="https://bslindsa.github.io/work-day-scheduler/">
-                            <img src="./assets/images/work-day-scheduler-demo.gif" alt="Gif of work day shceduler in use. Each hour can be planned and saved." />
-                            <header>Work Day Scheduler</header>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="https://bslindsa.github.io/basic-coding-quiz/">
-                            <img src="./assets/images/code-quiz.gif" alt="Coding quiz gif. Begin quiz and answer multiple choice questions. Enter your initials to save your score." />
-                            <header>Coding Quiz</header>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="https://bslindsa.github.io/password-generator/">
-                            <img src="./assets/images/password-generator.gif" alt="Password generator page." />
-                            <header>Password Generator</header>
-                        </a>
-                    </div>
-                    
+                <div class="col-md-9">
+                    <p id="about-text">Aspiring software developer from Mesa, Arizona with a B.S.E. in
+                        Chemical Engineering. I have a knack for process design, troubleshooting, and creative design.
+                        My goal here is to create
+                        your best applications to make your processes more
+                        efficient and free up your time.
+                    </p>
                 </div>
             </section>
 
-            <section class="contactme">
-                <aside class="a-contact">
+            <section class="mywork row">
+                <div class="a-work col-md-3">
+                    <h1 id="towork">MY WORK</h1>
+                </div>
+                <div class="projects col-md-9">
+                    <div class="projectOne">
+                        <div class="card">
+                            <a href="https://wissamk08.github.io/BootCampProject-01">
+                                <img src="./assets/images/stox-ster.png"
+                                    alt="Screenshot of code from refactoring project." />
+                                <header>Stock Tracker</header>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projectOther d-flex flex-wrap justify-content-around">
+                        <div class="card col-md-5 mt-5">
+                            <a href="https://super-statz.herokuapp.com/">
+                                <img class="proj-image" src="./assets/images/super-statz.png" alt="Super Statz page." />
+                                <header>Super Statz Tracker</header>
+                            </a>
+                        </div>
+                        <div class="card col-md-5 mt-5">
+                            <a href="https://bslindsa.github.io/team-profile-generator/">
+                                <img class="proj-image" src="./assets/images/team-profile-gen.gif"
+                                    alt="Team profile generator page." />
+                                <header>Team Profile Generator</header>
+                            </a>
+                        </div>
+                        <div class="card col-md-5 mt-5">
+                            <a href="https://bslindsa.github.io/employee-tracker">
+                                <img class="proj-image" src="./assets/images/employee-tracker.png"
+                                    alt="Employee database tracker page." />
+                                <header>Employee Tracker</header>
+                            </a>
+                        </div>
+                        <div class="card col-md-5 mt-5">
+                            <a href="https://bslindsa.github.io/weather-dashboard/">
+                                <img class="proj-image" src="./assets/images/weather-dashboard.JPG"
+                                    alt="Weather Dashboard." />
+                                <header>Weather Dashboard</header>
+                            </a>
+                        </div>
+                        <div class="card col-md-5 mt-5">
+                            <a href="https://bslindsa.github.io/work-day-scheduler/">
+                                <img class="proj-image" src="./assets/images/work-day-scheduler-demo.gif"
+                                    alt="Gif of work day shceduler in use. Each hour can be planned and saved." />
+                                <header>Work Day Scheduler</header>
+                            </a>
+                        </div>
+                        <div class="card col-md-5 mt-5">
+                            <a href="https://bslindsa.github.io/basic-coding-quiz/">
+                                <img class="proj-image" src="./assets/images/code-quiz.gif"
+                                    alt="Coding quiz gif. Begin quiz and answer multiple choice questions. Enter your initials to save your score." />
+                                <header>Coding Quiz</header>
+                            </a>
+                        </div>
+                        <div class="card col-md-5 mt-5">
+                            <a href="https://bslindsa.github.io/password-generator/">
+                                <img class="proj-image" src="./assets/images/password-generator.gif"
+                                    alt="Password generator page." />
+                                <header>Password Generator</header>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="contactme row">
+                <div class="a-contact col-md-3">
                     <h1 id="tocontact">CONTACT ME</h1>
-                </aside>
-                <div class="contactInfo">
-                    <a href="mailto:bslindsa@gmail.com"><img src="./assets/images/gmail-icon.jpg" alt="Brad Lindsay Email"></a>
-                    <a href="https://www.linkedin.com/in/brad-lindsay-473576152"><img id="linkedin" src="./assets/images/linkedin-icon.jpg" alt="Brad Lindsay Linkedin."></a>
-                    <a href="https://github.com/bslindsa"><img id="github" src="./assets/images/github-icon.jpg" alt="Brad Lindsay Github"></a>
+                </div>
+                <div class="contactInfo col-md-9">
+                    <div class="row">
+                        <div class="icons col">
+                            <a href="mailto:dont.judge712@gmail.com"><img src="./assets/images/gmail-icon.jpg"
+                                    alt="Brad Lindsay Email"></a>
+                        </div>
+                        <div class="icons col">
+                            <a href="https://www.linkedin.com/in/brad-lindsay-473576152"><img id="linkedin"
+                                    src="./assets/images/linkedin-icon.jpg" alt="Brad Lindsay Linkedin."></a>
+                        </div>
+                        <div class="icons col">
+                            <a href="https://github.com/bslindsa"><img id="github" src="./assets/images/github-icon.jpg"
+                                    alt="Brad Lindsay Github"></a>
+                        </div>
+                    </div>
                 </div>
             </section>
-        </div> 
+        </div>
     </main>
 
     <footer>
-        <br>
         <p><span>&copy</span>2021 Don't_Judge content. Coding Camp Portfolio</p>
-        <br>
     </footer>
 
 </body>
+
 </html>
